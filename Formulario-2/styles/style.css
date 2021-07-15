@@ -19,6 +19,7 @@ body{
 }
 
 .encabezado{
+    padding: 2%;
     text-align: center;
     border-radius: 2px 20px;
     background-color: rgba(1, 195, 243, 0.678);
