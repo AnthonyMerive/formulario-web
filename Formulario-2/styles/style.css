@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contenedor{
+    padding:50px;
+    border:1px solid black;
+    margin:10%;
+    width: 70%;
+    height: 50%;
+    background-color: rgba(22, 76, 192, 0.486);
+    box-shadow: 2px 4px 8px black;
+}
+
+.encabezado{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 2px 20px;
+    background-color: rgba(1, 195, 243, 0.678);
+    box-shadow: 2px 4px 8px rgb(9, 30, 150);
+ 
+}
+
+.encabezado h2{
+    color: rgb(207, 207, 235);
+    text-shadow: 2px 4px 8px black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 42px;
+}
+
+
+.encabezado p{
+    color:rgb(255, 254, 254);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    text-shadow: 2px 4px 8px black;
+    
+}
+
+.principal h2{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 4px 8px black;
+}
+
+.cont-form{
+    border:1px solid black;
+}
+
+.pie-pag{
+    text-align: right;
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+    margin: 100px 0 0 0;
+}
+
+.formulario{
+    font-family: 'Orbitron', sans-serif;
+    padding:auto 10px;
+    align-items: center;
+    color:white;
+    text-align-last: center;
+    text-shadow: 2px 4px 8px black;
+    font-size: 15px;
+}
+
+.grupo{
+    margin:20px auto;
+}
+
+.control-1{
+    border: 2px solid rgb(19, 4, 71);
+    border-radius: 5px;
+    width: 70%;
+    padding: 10px;
+    text-align:center;
+}
+
+.control-2{
+    border: 1.5px solid rgb(19, 4, 71);
+    border-radius: 5px;
+}
+
+.caja{
+    border: 2px solid rgb(19, 4, 71);
+    border-radius: 5px;
+    width: 70%;
+    padding:50px;
+}
+
+.boton{
+    background-color: rgba(34, 34, 145, 0.534);
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 5px;
+    padding: 5px;
+    width: 30%;
+    color:white;
+    box-shadow: 2px 4px 8px black;
+
+}
+
+.boton:hover{
+    transform: scale(1.1);
+}
