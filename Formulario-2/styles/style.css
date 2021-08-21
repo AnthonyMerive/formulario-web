@@ -9,9 +9,9 @@ body{
 
 
 .contenedor{
-    padding:30px;
+    padding:50px;
     border:1px solid black;
-    margin:5%;
+    margin:20px;
     background-color: rgba(22, 76, 192, 0.486);
     box-shadow: 2px 4px 8px black;
 }
@@ -112,4 +112,10 @@ body{
 
 .boton:hover{
     transform: scale(1.1);
+}
+
+@media(min-width:768px){
+    .contenedor{
+        margin:100px 300px;
+    }
 }
